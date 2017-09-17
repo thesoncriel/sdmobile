@@ -1,0 +1,42 @@
+
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  background: #222;
+}
+
+@mixin rowMachine($numPerRow, $margin) {
+  width: ((100% - (($numPerRow - 1) * $margin)) / $numPerRow);
+  &:nth-child(n) {
+    margin-bottom: $margin;
+    margin-right: $margin;
+  }
+  &:nth-child(#{$numPerRow}n) {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+.person {
+//@include rowMachine(4, 2%);
+  background: white;
+  padding: 10px;
+  float: left;
+  
+  @media (min-width: 780px) {
+    @include rowMachine(4, 2%);
+  }
+  
+  
+  @media (max-width: 779px) {
+    @include rowMachine(3, 4%);
+  }
+  
+  img {
+    max-width: 100%; 
+  }
+}
+
+

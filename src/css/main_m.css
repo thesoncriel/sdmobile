@@ -1,0 +1,232 @@
+#owlca_ad .item{
+  margin: 0px;
+  position: relative;
+}
+#owlca_ad .item .btn-movie,
+#owlca_ad .item .btn-book{
+	position: absolute;
+	left: 20px;
+	bottom: 3px;
+	z-index: 2000;
+	display: inline-block;
+}
+#owlca_ad a{
+	display: block;
+}
+#owlca_ad .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#owlca_ad .owl-controls{
+	margin-top: 0px;
+	position: relative;
+	height: 30px;
+	text-align: center;
+	/*background-color: rgba(44, 44, 44, 0.4);*/
+}
+#owlca_ad .owl-controls .owl-pagination{
+	/*position: absolute;*/
+	display: inline-block;
+	width: 50%;
+	right: 10px;
+	top: 0px;
+	text-align: center;
+}
+#owlca_ad .owl-controls .owl-page span,
+#owlca_books .owl-controls .owl-page span{
+	width: 8px;
+	height: 8px;
+	margin: 10px 8px;
+}
+#owlca_ad .owl-controls .owl-page span{
+	opacity: 1;
+	background-color: #9b9c9e;
+}
+#owlca_ad .owl-controls .owl-page.active span{
+	opacity: 1;
+	background-color: #ff4f36;
+}
+
+a.btn-small-black:link,
+a.btn-small-black:visited{
+	background-color: #051829;
+	color: #ffd908;
+	border-radius: 3px;
+	font-weight: bold;
+}
+a.btn.btn-small-black .glyphicon{
+	color: #fff;
+}
+
+.wrap-owlca-navigation-enabled{
+	padding: 0px 20px 0 20px;
+	position: relative;
+	margin-top: 12px;
+}
+#owlca_books .item{
+	text-align: center;
+}
+#owlca_books .item img{
+	width: 80px;
+	display: inline-block;
+}
+#owlca_books .item span{
+	display: inline-block;
+	font-size: 12px;
+	padding: 0 1em;
+}
+#owlca_books .item b{
+	display: inline-block;
+	overflow: hidden;
+	height: 3em;
+	margin-top: 1em;
+	margin-bottom: -0.5em;
+}
+
+#owlca_books .owl-controls .owl-page span{
+	opacity: 1;
+	border: 1px solid #a1a1a1;
+	background-color: #c5c5c5;
+}
+#owlca_books .owl-controls .owl-page.active span{
+	opacity: 1;
+	border: 1px solid #b71f2b;
+	background-color: #ec4758;
+}
+#owlca_books .owl-controls{
+	margin-top: 5px;
+}
+
+.owlca-nav-btn{
+	font-size: 40px;
+	position: absolute;
+	top: 9%;
+	color: #dfdfdf;
+}
+.owlca-nav-btn.next{
+	right: -15px;
+}
+.owlca-nav-btn.prev{
+	left: -15px;
+}
+
+
+.container.more-with{
+	position: relative; 
+	padding-top: 0;
+}
+.heading-info.tight{
+	margin-top: 10px;
+	margin-bottom: 7px;
+}
+
+.more-with.underline{
+	border-bottom: 1px solid #bdbdbd;
+	padding-bottom: 5px;
+}
+.more-with.overline{
+	border-top: 1px solid #bdbdbd;
+}
+.more-with .view-more{
+	position: absolute;
+	right: 15px;
+	top: 20px;
+}
+.heading-info.tight+.view-more{
+	top: 11px;
+}
+.more-with .view-more:link,
+.more-with .view-more:visited{
+	color: #7b7d89;
+}
+
+.sdedu-event-member{
+	display: block;
+	text-align: center;
+	background-color: #b6211d;
+	overflow: hidden;
+}
+.sdedu-event-zone{
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.wrap-main-exam-list .list-group .list-group-item{
+	border-radius: 0;
+	margin-bottom: 1px;
+	background-color: rgba(0, 0, 0, 0.1);
+	border: none;
+	position: relative;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 10px 15px 10px 15px;
+}
+.wrap-main-exam-list .list-group .list-group-item:before{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #f35e04;
+	color: #fff;
+	text-align: center;
+	margin-right: 0.5em;
+	font-weight: bold;
+}
+.wrap-main-exam-list .list-group .list-group-item:nth-child(1):before{ content: "1"; }
+.wrap-main-exam-list .list-group .list-group-item:nth-child(2):before{ content: "2"; }
+.wrap-main-exam-list .list-group .list-group-item:nth-child(3):before{ content: "3"; }
+
+.wrap-main-exam-list .list-group .list-group-item em{
+	font-style: normal;
+	color: #da2f01;
+}
+/*.wrap-main-exam-list .list-group .list-group-item:after,
+.main-notice-item:after{
+	content: "\e080";
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	margin-top: -8px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	color: #566272;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}*/
+.main-notice-item{
+	padding: 10px 25px 10px 0px;
+	position: relative;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+
+}
+.foreword{
+	width: 60px;
+	height: 21px;
+	border: 1px solid #000;
+	background-color: #ccc;
+	border-radius: 3px;
+	margin-right: 0.5em;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+}
+.foreword.notice{
+	border: 1px solid #669acc;
+	background-color: #75a4d2;
+}
+.foreword.news{
+	border: 1px solid #d96359;
+	background-color: #de736b;
+}
+/*
+ * 
+ * 
+ */

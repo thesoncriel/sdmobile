@@ -1,0 +1,41 @@
+.heading-last-search{
+  margin: 0;
+  font-size: 14px;
+  display: inline-block;
+  
+  .close{
+    margin-top: -20px;
+  }
+}
+.close-x-text{
+  font-size: 14px;
+  margin-top: 3px;
+  vertical-align: top;
+  display: inline-block;
+}
+.panel-autocomplete{
+  margin-bottom: 0;
+  .panel-heading{
+    border-color: #777;
+  }
+  .list-group-item{
+    a{
+      display: block;
+    }
+  }
+  .panel-footer{
+    background-color: #999;
+    color: #eee;
+    a:link,
+    a:visited,
+    .close{
+      color: #eee;
+      text-shadow: 0 1px 0 #333;
+      opacity: 1;
+    }
+    a:hover,
+    .close:hover{
+      color: #fff;
+    }
+  }
+}

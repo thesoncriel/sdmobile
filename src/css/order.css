@@ -1,0 +1,296 @@
+#container { margin-top: 50px;  }
+
+#container .panel .panel-body,
+.container-panel .panel .panel-body{
+	padding: 15px;
+}
+
+
+#list_cart h5{
+	font-weight: bold;
+	padding-top: 0.7em;
+}
+.goods-name-wrap{
+	display: table;
+	width: 100%;
+}
+.goods-name{
+	display: table-row;
+}
+.goods-name-col{
+	display: table-cell;
+	vertical-align: top;
+}
+
+.collapsible .closed{
+	display: none;
+}
+
+.phone-dash {
+	float: left;
+	margin-top: 5px;
+	display: inline-block;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+.phone-block{
+	width: 28%;
+	float: left;
+}
+.phone-block .form-control{
+	padding: 6px 0px;
+}
+
+label.required:after{
+	font-family: 'Glyphicons Halflings';
+	content: "\e013";
+	color: #f55;
+	background-position: -16px -16px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	
+	margin-left: 5px;
+}
+
+.pager.wrap-buttons{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.pager.wrap-buttons>div>span{
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+.check-lbl-body{
+	display: inline-block;
+	margin-left: 2em;
+	margin-top: -18px;
+}
+.btn-right{
+	float: right;
+}
+
+.payment .panel-footer,
+.payment .result-for-goods{
+	text-align: right;
+}
+
+.user-info-list-wrap li{
+	display: block;
+	margin-bottom: 0.3em;
+	width: 100%;
+}
+.user-info-list-wrap li:before{
+	content: "● ";
+}
+.order-success .button-wrap{
+	overflow: hidden;
+}
+.order-success .button-wrap a{
+	
+}
+.thankyou,
+.error{
+	text-align: center;
+}
+.thankyou h2,
+.error h2{
+	font-weight: bold;
+}
+
+.dropdown-menu li{
+	display: block;
+	width: 100%;
+}
+
+.row.show-grid{
+	overflow: hidden;
+}
+
+.order-list h1{
+	display: inline-block;
+}
+.order-list h1+div{
+	margin-top: 20px;
+}
+
+.list-group li.list-group-item{
+	float: none;
+}
+
+#selector_searchRange label{
+	border: 1px solid #9AA1AC;
+}
+#selector_searchRange input{
+	display: none;
+}
+
+.list_zipcode li{
+	display: block;
+	width: 100%;
+	float: none;
+}
+
+#select_coupon {
+	/*width: 115px;*/
+}
+
+.order-dc-info .form-group{
+    border-bottom: 1px #ccc solid;
+}
+.order-dc-info .form-group:last-child{
+    border-bottom: none;
+}
+
+#textbox_cash {
+	width: 80px;
+}
+
+.od-settle-use-group label{
+	margin-right: 1em;
+}
+
+.container-panel .pager li{
+	float: none;
+}
+
+/* 푸터 아이콘 [시작] */
+
+.footer-nav-icon {
+	overflow: hidden;
+	width: 100%;
+	margin-top: 15px;
+	padding-top: 30px;
+}
+.footer-nav-icon li{
+	text-align: center;
+	height: 86px
+}
+.footer-nav-icon li>a.icon{
+	width: 64px;
+	height: 64px;
+	vertical-align: bottom;
+	display: inline-block;
+	text-align: center;
+}
+.footer-nav-icon li>a.icon:hover{
+	text-decoration: none;
+	outline: none;
+}
+
+/* myorder 부분 */
+.item_order h3{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+.item_order .product-image img{
+	width: 91px;
+}
+
+.icon-32:after{
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background: url("../images/icon_pack.png") no-repeat;
+	content: " ";
+}
+.icon .icon-32{
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+}
+.icon .icon-32{
+	display: block;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+	margin-left: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding-top: 8px;
+}
+
+.icon-16:after{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url("../images/icon_pack.png") no-repeat;
+	content: " ";
+}
+
+/* 푸터 아이콘 [종료] */
+
+.icon-arrow-up:after{
+	background-position: 0 0;
+}
+.icon-arrow-down:after{
+	background-position: -16px 0;
+}
+.icon-arrow-left:after{
+	background-position: -32px 0;
+}
+.icon-arrow-right:after{
+	background-position: -48px 0;
+}
+
+.icon-point-up:after{
+	background-position: 0 -16px;
+}
+.icon-check:after{
+	background-position: -16px -16px;
+}
+.icon-undo:after{
+	background-position: -32px -16px;
+}
+.icon-cart.small:after{
+	background-position: -48px -16px;
+}
+.icon-ok:after{
+	background-position: -64px -16px;
+}
+.icon-myroom.small:after{
+	background-position: -80px -16px;
+}
+.icon-event.small:after{
+	background-position: -96px -16px;
+}
+
+.icon-chevron-up:after{
+	background-position: 0 -64px;
+}
+.icon-chevron-down:after{
+	background-position: -32px -64px;
+}
+
+.icon-myroom:after{
+	background-position: 0 -96px;
+}
+.icon-delevery:after{
+	background-position: -32px -96px;
+}
+.icon-mybooks:after{
+	background-position: -64px -96px;
+}
+.icon-event:after{
+	background-position: -96px -96px;
+}
+.icon-memobox:after{
+	background-position: -128px -96px;
+}
+.icon-cart:after{
+	background-position: -160px -96px;
+}
+.icon-store-info:after{
+	background-position: -192px -96px;
+}
+.icon-cus-center:after{
+	background-position: -224px -96px;
+}
+.icon-notice:after{
+	background-position: -256px -96px;
+}
+.icon-quick:after{
+	background-position: -288px -96px;
+}
